@@ -1,12 +1,11 @@
-package main
+package main //github.com/pio500/go_echo_test/server
 
 import (
-	"./server"
 	"flag"
-	"github.com/labstack/echo"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/labstack/gommon/log"
+	"github.com/pio500/go_echo_test/server"
 	"strconv"
 )
 
